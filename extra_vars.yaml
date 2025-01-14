@@ -1,0 +1,15 @@
+# Helm deployment
+helm_enabled: false
+
+# Rancher Local Path Provisioner
+local_path_provisioner_enabled: false
+
+# Nginx ingress controller deployment
+ingress_nginx_enabled: false
+
+# MetalLB deployment
+metallb_enabled: false
+
+# configure arp_ignore and arp_announce to avoid answering ARP queries from kube-ipvs0 interface
+# must be set to true for MetalLB, kube-vip(ARP enabled) to work
+kube_proxy_strict_arp: false
