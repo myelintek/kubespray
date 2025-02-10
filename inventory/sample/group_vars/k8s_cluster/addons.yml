@@ -1,7 +1,7 @@
 ---
 # Kubernetes dashboard
 # RBAC required. see docs/getting-started.md for access details.
-# dashboard_enabled: false
+dashboard_enabled: true
 
 # Helm deployment
 helm_enabled: false
@@ -101,7 +101,7 @@ gateway_api_enabled: false
 # gateway_api_experimental_channel: false
 
 # Nginx ingress controller deployment
-ingress_nginx_enabled: true
+ingress_nginx_enabled: false
 # ingress_nginx_host_network: false
 # ingress_nginx_service_type: LoadBalancer
 # ingress_nginx_service_annotations:
